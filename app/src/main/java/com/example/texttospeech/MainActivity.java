@@ -8,6 +8,7 @@ import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Locale;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         text = (EditText) findViewById(R.id.text);
         button  = (Button) findViewById(R.id.button);
         clean = (Button) findViewById(R.id.clean);
+
+        getSupportActionBar().setTitle("");
 
         t1 = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
             @Override
