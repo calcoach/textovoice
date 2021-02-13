@@ -1,5 +1,6 @@
 package com.example.texttospeech;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.media.AudioManager;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     Button jokesButton;
     Button clean;
     EditText text;
+    int iterator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,12 +41,13 @@ public class MainActivity extends AppCompatActivity {
                 if (status != TextToSpeech.ERROR) {
 
                     t1.setLanguage(Locale.forLanguageTag("es-CO"));
+                    String toSpeak = "Bienvenido, escriba en el cuadro lo que quiere que la voz de google diga u oprima contar chiste.";
+                    t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null, "kl");
                 }
             }
         });
 
-        String toSpeak = "Bienvenido, escriba en el cuadro lo que quiere que la voz de google diga";
-        t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null, "kl");
+
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,13 +72,18 @@ public class MainActivity extends AppCompatActivity {
         });
 
         final String[] chistes = getResources().getStringArray(R.array.chistes);
+        iterator = (int) Math.floor(Math.random() * (100 - 1 + 1) + 1);
+
         jokesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-.-, , , , , ,vglgkkkkgkgkkgkggkglggkkggkkggklñwñwwñwñlkflglglfkgtktkkggglglm m  n  m   n n n n m m m mmm m m m  m mm  m mbbmbmbmbk,
-                int valorEntero = (int) Math.floor(Math.random() * (100 - 1 + 1) + 1);
-                String toSpeak = chistes[valorEntero];
+
+                if(iterator > 99)
+                    iterator = 1;
+
+                String toSpeak = chistes[iterator];
                 int kl = t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null, "kl");
+                iterator++;
 
             }
         });
