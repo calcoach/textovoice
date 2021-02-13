@@ -1,3 +1,113 @@
 <resources>
     <string name="app_name">VozdeGoogle</string>
+
+    <string name="text_button_jokes">Contar chiste</string>
+
+    <string-array name="chistes">
+
+
+
+
+        <item>¿Por qué las focas del circo miran siempre hacia arriba?. Porque es donde están los focos.</item>
+        <item>¡Estás obsesionado con la comida!.No sé a que te refieres croquetamente.</item>
+        <item>¿Por qué estás hablando con esas zapatillas?.Porque pone "converse"</item>
+        <item>¿Sabes cómo se queda un mago después de comer?.Magordito</item>
+        <item>Me da un café con leche corto.Se me ha roto la máquina, cambio.</item>
+        <item>Buenos días, me gustaría alquilar "Batman Forever".No es posible, tiene que devolverla tomorrow.</item>
+        <item>¡Camarero!. Este filete tiene muchos nervios.Normal, es la primera vez que se lo comen.</item>
+        <item> ¿Qué le dice un techo a otro?.Techo de menos.</item>
+        <item>Buenos días, quería una camiseta de un personaje inspirador.¿Ghandi?.No, mediani.</item>
+        <item>Hola, ¿está Agustín?.No, estoy incomodín.</item>
+        <item>¿Cuál es la fruta más divertida?.La naranja ja ja ja ja</item>
+        <item>¿Dónde cuelga Superman su supercapa?.En superchero</item>
+        <item>¿Qué le dice una iguana a su hermana gemela?.Somos iguanitas</item>
+        <item>Buenos días. Busco trabajo.¿Le interesa de jardinero?.¿Dejar dinero? ¡Si lo que busco es trabajo!</item>
+        <item>Abuelo, ¿por qué estás delante del ordenador con los ojos cerrados?.Es que Windows me ha dicho que cierre las pestañas.</item>
+        <item>¡Me acaba de picar una serpiente!.¿Cobra?.¡No, idiota, lo ha hecho gratis!</item>
+        <item>¿Qué es un pez en un cine?.Un mero espectador</item>
+        <item>Hola, soy paraguayo y quiero pedirle la mano de su hija para casarme con ella.¿Para qué?.Paraguayo.</item>
+        <item>¿Para que van una caja al gimnasio?.Para hacerse caja fuerte.</item>
+        <item>Esto es un hombre que entra en un bar de pinchos y dice:.Ay, ay, ay, ay.</item>
+        <item>¿Por qué se suicidó el libro de matemáticas?.Porque tenía muchos problemas.</item>
+        <item>¿Qué le dice un pingüino a una pingüina?.¡Cómo tú ningüina!</item>
+        <item>¿Qué le dice un huevo a una sartén?.Me tienes frito.</item>
+        <item>Hola ¿Conchita?.No, con Tarzán.</item>
+        <item>¿Qué le dice un espagueti a otro? .¡El cuerpo me pide salsa?</item>
+        <item>¿Qué le dice un grano de arena a otro en el desierto?.Tio, creo que nos sigueen.</item>
+        <item>¿Qué le dice un árbol a otro?.¡Qué pasa tronco!</item>
+        <item>Sí los zombies se deshacen con el paso del tiempo ¿zombiodegradables?</item>
+        <item>¿Cómo se llama el primo vegano de Bruce Lee?.Broco Lee.</item>
+        <item>¿Qué son 50 físicos y 50 químicos juntos?.Pues 100tificos.</item>
+        <item>Hola, ¿tienen libros para el cansancio?.Sí, pero están agotados.</item>
+        <item>Soy celíaca.Encantado, yo Antoniaco.</item>
+        <item>¡Qué fortuna ha hecho Henry Ford con los coches".¡Y su hermano Roque con los quesos!</item>
+        <item>¿Qué hace un perro con un taladro?Taladrando.</item>
+        <item>¿Qué le dice una gallina deprimida a otra gallina deprimida?.Necesitamos apoyo.</item>
+        <item>¿Qué le dice una barra de pan a otra?.Te presento a una miga.</item>
+        <item>¿Sabes por qué no se puede discutir con un DJ?.Porque siempre están cambiando de tema.</item>
+        <item>¿Por qué le dio un paro cardiaco a la impresora?.Parece que tuvo una impresión muy fuerte.</item>
+        <item>¿Qué hace un mudo bailando?.Una mudanza.</item>
+        <item>¿Por qué los adivinos no pueden tener hijos?.Porque tienen las bolas de cristal.</item>
+        <item>Hola muñeca.Hola tobillo.</item>
+        <item>¿Por qué el mar no se seca?.Porque no tiene toalla.</item>
+        <item>¿Qué hace una abeja en el gimnasio?.Zumba</item>
+        <item>Doctor, soy asmático, ¿es grave?.No amigo, es esdrújula.</item>
+        <item>¿De qué se quejan siempre los astronautas?.De falta de espacio.</item>
+        <item>Mamá, en el cole me llaman despistado.Niño, que esta no es tu casa.</item>
+        <item>Papá, dice mamá que estas obsesionado con el móvil.Cállate Alfonsiete.</item>
+        <item>¿Qué le dice la foca a su madre?.I love you, mother foca.</item>
+        <item>Doctor, tengo todo el cuerpo cubierto de pelo. ¿Qué padezco?.Padece uzté un ozito.</item>
+        <item>Mamá, el abuelo está malo.Pues apártalo y cómete solo las patatas.</item>
+        <item>¿Qué le dice una impresora a otra?.Esa hoja es tuya o es impresión mia.</item>
+        <item>¿Cuánto cuesta alquilar un coche?.Depende del tiempo.Vale, pongamos que llueve.</item>
+        <item>Un hombre entra en un restaurante y el camarero le pregunta:.¿Vino blanco el señor?.No ha sido al ver los precios.</item>
+        <item>Un paciente entra en una consulta.¿Qué es lo que le ha traído por aquí? —le pregunta el médico.Una ambulancia, ¿por qué?</item>
+        <item>¿En qué se parece una suegra a un nubarrón?.En que cuando se marchan se queda una buena tarde.</item>
+        <item>Perdone, ¿Dónde está la sección de libros sobre el sentido del gusto?.Lo siento, sobre gustos no hay nada escrito.</item>
+        <item> Doctor, doctor me duele aquí.Pues póngase allí.Doctor doctor, me sigue doliendo.Doliendo, deja de seguir al chaval.</item>
+        <item>¿Sabes que le dice un .gif a un .jpg?.¡Anímate hombre!</item>
+        <item>Una familia ocupó un terreno en Hawaii.Ahora a ver quién la desaloha.</item>
+        <item>¡Rápido, necesitamos sangre!.Yo soy 0 positivo.Pues muy mal, necesitamos una mentalidad optimista.</item>
+        <item>Andresito, ¿qué planeta va después de Marte?.Miércole, profe.</item>
+        <item>¿Por qué Bob Esponja no va al gimnasio?.Porque ya está cuadrado.</item>
+        <item>Van dos ciegos y le dice uno al otro:.Ojalá lloviera.Ojalá yo también</item>
+        <item>Mamá, mamá, ¿me haces un bocata de jamón?.¿York?.Sí, túrk.</item>
+        <item>Qué es un pelo en una cama?.El bello durmiente.</item>
+        <item>Que hamster más bonito.Si se llama Sam.¿Y dónde lo compraste?.En Hamsterdam</item>
+        <item>Señora, disculpe pero su vuelo se ha demorado.¡Ay, que emoción, es mi color favorito!</item>
+        <item>¿Sabes? Hoy me he comprado una paloma que cuesta diez mil euros.¿Mensajera?.No no, no te exagero</item>
+        <item>¿Que le dice un chinche a otro chinche?.Te voy a ser chinchero, yo te quiero</item>
+        <item>¿Qué le dice una morsa a otra morsa?.¿Almorsamos o qué?</item>
+        <item>No sé si conseguiré enamorar a esa chica.¿Tienes vacas y ovejas?.Sí.Pues ya tienes mucho ganado.</item>
+        <item>Ha cometido usted un crimen matemático.Pues, lo asumo.Pues, lo arresto.</item>
+        <item>¿Por qué los patos no tienen amigos?.Porque son muy antipáticos</item>
+        <item>Ramón, si supieras que voy a morir mañana, ¿qué me dirías hoy?.¿Me prestas 1000 euros, y mañana te los devuelvo?</item>
+        <item>En la Farmacia:.¿Tienen pastillas para el cansancio?.Están agotadas</item>
+        <item>¿Cómo se despiden los químicos?.Ácido un placer</item>
+        <item>Me han dado planton.¿Coómo a las ballenas?</item>
+        <item>Mi vecino es músico.¿Y qué toca?.Los huevos.</item>
+        <item>¿Qué le dice un pato a otro pato que estaban compitiendo en una carrera?.Hemos empatado.</item>
+        <item>¿Qué hacen dos vascos encima de una nube?.Chubascos.</item>
+        <item>¡Soldado Miralles!.¡Sí, mi capitán!.No lo vi ayer en la prueba de camuflaje.¡Gracias, mi capitán!</item>
+        <item>¿Cuánto cuesta esta estufa?.5.000 dólares.Pero, oiga, ¡esto es una estafa!.No, señor, esto es una estufa.</item>
+        <item>¿Qué hace un piojo en la cabeza de un calvo?.¡Desintoxicación!</item>
+        <item>Martínez, queda usted despedido.Pero, si yo no he hecho nada.Por eso, por eso.</item>
+        <item>Un placer venir a su mutua.Es mutuo.Un placer venir a su mutuo.</item>
+        <item>¿Qué le dice un 2 a un 0?.Veinte conmigo guapetón.</item>
+        <item>El capitán dijo:.¡Abordar el barco!.Y el barco quedó precioso.</item>
+        <item>Doctor, doctor, ¿qué puedo hacer para que me hijo no se mee en la cama?.Qué duerma en el baño.</item>
+        <item>¿Hola, es la carnicería?.No, es la zapatería.Disculpe, me he equivocado de número.No importa, tráigalos, se los cambiamos.</item>
+        <item>¿Oiga tiene trajes de camuflaje?.Tenerlos si los tengo ¿sabe?, pero llevo un mes buscándolos.</item>
+        <item>Va uno al oculista y le dice:.Doctor, se me juntan las letras.Pues páguelas, hombre, páguelas.</item>
+        <item>Un borracho está en una jaula del zoo cantándole una nana a la gorila.¿Qué demonios hace usted ahí?— Le pregunta el guarda.Pues ya lo ve, durmiendo la mona.</item>
+        <item>Estoy a FAVOR de la libertad de expresión.Y yo.Tú te callas.</item>
+        <item>Soy experto en jeroglíficos.Pues échale un vistazo al mío, que no enfría bien.</item>
+        <item>Jesús, ¿qué tal la última cena? ¿Salió cara?.Qué va, salió cruz.</item>
+        <item>¿Qué te ha pasado?.Nada que me quemé.¿Qué te, que té?</item>
+        <item>Un muerto a otro:.Déjame dinero, tío.No puedo, estoy tieso.</item>
+        <item>Hola guapa, ¿cómo te llamas?.Maria de Los Angeles, ¿y tu?.Pedro, de New York.</item>
+        <item>A ver Jaimito, si tengo cuarenta manzanas en una mano y en la otra tengo cincuenta, ¿qué tengo en total?Las manos muy grandes.</item>
+        <item>Mamá, mamá, hoy casi saco un 10.¡Muy bien Jaimito! pero… ¿por qué casi?.Porque se lo pusieron a mi compañero de al lado.</item>
+
+    </string-array>
 </resources>
