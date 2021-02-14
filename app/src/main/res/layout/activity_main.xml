@@ -48,18 +48,28 @@
                 </Button>
             </LinearLayout>
 
-
             <LinearLayout
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <Button
+                android:orientation="vertical">
+
+                <ImageButton
                     android:id="@+id/jokes_button"
-                    android:layout_width="110dp"
+                    android:layout_width="64dp"
                     android:layout_height="60dp"
-                    android:text="@string/text_button_jokes"></Button>
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/risa"></ImageButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/text_button_jokes"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"></TextView>
             </LinearLayout>
 
 
