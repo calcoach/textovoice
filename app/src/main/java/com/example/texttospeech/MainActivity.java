@@ -9,6 +9,8 @@ import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextToSpeech t1;
     Button button;
-    Button jokesButton;
+    ImageButton jokesButton;
     Button clean;
     EditText text;
     int iterator;
@@ -31,7 +33,9 @@ public class MainActivity extends AppCompatActivity {
         text = (EditText) findViewById(R.id.text);
         button = (Button) findViewById(R.id.button);
         clean = (Button) findViewById(R.id.clean);
-        jokesButton = (Button) findViewById(R.id.jokes_button);
+        jokesButton = (ImageButton) findViewById(R.id.jokes_button);
+
+
 
         getSupportActionBar().setTitle("");
 
@@ -73,22 +77,26 @@ public class MainActivity extends AppCompatActivity {
         final String[] chistes = getResources().getStringArray(R.array.chistes);
         iterator = (int) Math.floor(Math.random() * (100 - 1 + 1) + 1);
 
-        jokesButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                if(iterator > 99)
-                    iterator = 1;
-
-                String toSpeak = chistes[iterator];
-                int kl = t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null, "kl");
-                iterator++;
-
-            }
-        });
-
+        jokesButton.setOnClickListener(clickListener(chistes));
+        LinearLayout jokesLayout = (LinearLayout) findViewById(R.id.jokes_layout);
+        jokesLayout.setOnClickListener(clickListener(chistes));
 
     }
 
+    private View.OnClickListener clickListener(final String [] chistes){
 
+       return new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+
+               if (iterator > 99)
+                   iterator = 1;
+
+               String toSpeak = chistes[iterator];
+               int kl = t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null, "kl");
+               iterator++;
+
+           }
+       };
+    }
 }
